@@ -1,0 +1,50 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+main
+app
+
+# Go build outputs
+bin/
+build/
+dist/
+
+# Go modules cache
+pkg/
+vendor/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Docker
+docker-data/
+docker-compose.override.yml
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Dependency / Cache folders
+coverage.out
+coverage/
+tmp/
+cache/
+
+# Redis data
+redis-data/
+
+# MacOS system files
+.DS_Sto_
